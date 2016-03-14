@@ -1,3 +1,8 @@
+=== What? ===
+
+Well I wanted to learn some web programming and this is the result,
+a web component that is able to display and edit binary data.
+
 === Requirements ===
 
 You should have 'npm' and 'webpack' installed on your computer.
@@ -13,3 +18,8 @@ You should have 'npm' and 'webpack' installed on your computer.
   $ webpack
   $ npm run dev
   $ open http://localhost:8080
+
+=== TODO ===
+
+  - Load custom data instead of "random" bytes.
+  - Make the UI great again.
