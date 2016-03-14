@@ -1,0 +1,46 @@
+.hex-editor {
+}
+
+.hex-offsets {
+}
+
+.hex-bytes {
+}
+
+.hex-text {
+}
+
+.monospaced-font {
+    font-family: monospace;
+}
+
+.hex-offsets div:hover {
+    font-weight: bold;
+}
+
+.hex-bytes span {
+    padding: 0 4px 0 4px;
+}
+
+.hex-bytes span:nth-child(8n) {
+    border-right-style: solid;
+    border-width: 1px;
+}
+
+.hex-bytes span:nth-child(16n) {
+    border-right-style: none;
+}
+
+.hex-bytes span:nth-child(16n)::after {
+    white-space: pre;
+    content: '\a';
+}
+
+.hex-text span:nth-child(16n)::after {
+    white-space: pre;
+    content: '\a';
+}
+
+.hex-text span:hover {
+    background-color: lime;
+}

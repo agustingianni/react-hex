@@ -1,0 +1,11 @@
+=== Requirements ===
+
+You should have 'npm' installed on your computer.
+
+  $ brew install npm
+
+=== Installation ===
+
+  $ npm install
+  $ npm run dev
+  $ open http://localhost:8080
